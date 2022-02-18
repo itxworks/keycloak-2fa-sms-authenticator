@@ -6,13 +6,16 @@
 
 	<groupId>dasniko</groupId>
 	<artifactId>keycloak-2fa-sms-authenticator</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 
 	<properties>
 		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<aws.version>2.17.99</aws.version>
-		<keycloak.version>16.1.0</keycloak.version>
+		<aws.version>2.17.124</aws.version>
+		<keycloak.version>17.0.0</keycloak.version>
+		<keyCloakVersion>${keycloak.version}</keyCloakVersion>
+		<production>false</production>
+		<keycloak-plugin>${project.version}</keycloak-plugin>
 		<maven.compiler.version>3.8.1</maven.compiler.version>
 		<maven.shade.version>3.2.4</maven.shade.version>
 	</properties>
